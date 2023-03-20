@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TelegramProfileUI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2C2F33</item>
+        <item name="colorPrimaryVariant">#23272A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#4AA0E2</item>
+        <item name="colorSecondaryVariant">#3886C9</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Enable Dark Theme feature and force dark theme mode -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">true</item>
+
+    </style>
+</resources>
